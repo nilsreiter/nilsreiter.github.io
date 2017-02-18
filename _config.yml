@@ -2,12 +2,6 @@
 permalink: /blog/:title
 
 
-# My variables
-name:
-description:
-google_verification: null
-
-
 # File management
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
