@@ -1,6 +1,7 @@
 @{{ include.type }}{ {{ include.pub.id }},
   {% if include.pub.author %}Author = { {{ include.pub.author | join: " and " }} },
   {% endif %}{% if include.pub.booktitle %}Booktitle = { {{ include.pub.booktitle }} },
+  {% endif %}{% if include.pub.title %}Title = { {{ include.pub.title }} },
   {% endif %}{% if include.pub.volume %}Volume = { {{ include.pub.volume }} },
   {% endif %}{% if include.pub.number %}Number = { {{ include.pub.number }} },
   {% endif %}{% if include.pub.journal %}Journal = { {{ include.pub.journal }} },
