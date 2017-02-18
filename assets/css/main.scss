@@ -263,3 +263,25 @@ blockquote {
 		}
 	}
 }
+
+/**
+ * publications
+ */
+
+.publication {
+	span.booktitle {
+  	font-style: italic;
+	}
+
+span.title {
+  font-weight: bold;
+}
+
+span.journal {
+  font-style: italic;
+}
+
+.abstract {
+  font-size:0.8em;
+}
+}
