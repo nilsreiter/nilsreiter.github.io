@@ -1,0 +1,15 @@
+@{{ include.type }}{ {{ include.pub.id }},
+  {% if include.pub.author %}Author = { {{ include.pub.author | join: " and " }} },
+  {% endif %}{% if include.pub.booktitle %}Booktitle = { {{ include.pub.booktitle }} },
+  {% endif %}{% if include.pub.volume %}Volume = { {{ include.pub.volume }} },
+  {% endif %}{% if include.pub.number %}Number = { {{ include.pub.number }} },
+  {% endif %}{% if include.pub.journal %}Journal = { {{ include.pub.journal }} },
+  {% endif %}{% if include.pub.month %}Month = { {{ include.pub.month }} },
+  {% endif %}{% if include.pub.publisher %}Publisher = { {{ include.pub.publisher }} },
+  {% endif %}{% if include.pub.editor %}Editor = { {{ include.pub.editor | join: " and " }} },
+  {% endif %}{% if include.pub.pages %}Pages = { {{ include.pub.pages }} },
+  {% endif %}{% if include.pub.address %}Address = { {{ include.pub.address }} },
+  {% endif %}{% if include.pub.link %}Url = { {{ include.pub.link }} },
+  {% endif %}{% if include.pub.doi %}Doi = { {{ include.pub.doi }} },
+  {% endif %}{% if include.pub.year %}Year = { {{ include.pub.year }} }{% endif %}
+}
