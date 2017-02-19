@@ -27,3 +27,6 @@ title: Curriculum Vitae
 
 - September 2000 – September 2002:
   - Commercial Information Technology (“Wirtschaftsinformatik”) at University of Applied Sciences Kaiserslautern in Zweibrücken
+
+- June 2000:
+  - Diploma from German secondary school qualifying for university admission or matriculation ("Abitur") at Ziehenschule, Frankfurt am Main, Germany
