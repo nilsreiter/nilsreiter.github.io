@@ -1,0 +1,52 @@
+- title: Einführung in die Quantitative Dramenanalyse
+  with:
+  - Marcus Willand
+  date: 2017-02-08
+  venue:
+    label: Ringvorlesung Digitale Geisteswissenschaften
+    link: http://www.uni-stuttgart.de/dh/news/Ring-VL_xDigitale_Geisteswissenschaftenx/
+  institution: stuttgart
+  lang: de
+- title: QuaDramA - Eine Projektvorstellung
+  with:
+  - Marcus Willand
+  date: 2017-01-01
+  venue:
+    label: Wissenschaftliches Kolloquium von Prof. Dr. Juliane Vogel
+  institution: konstanz
+  lang: de
+- title: "Ottokar Capulet & Julia Schroffenstein? Liebeskonflikte und Gattungskontexte bei Kleist und Shakespeare"
+  with:
+  - Marcus Willand
+  date: 2016-10-07
+  venue:
+    label: "Tagung: Genie oder nicht Genie… Kleist und die Shakespeare-Rezeption um 1800"
+    link: http://www.kleist-museum.de/fileadmin/kleist/dokumente/kleist-museum/Kleist-Festtage_Programmheft_2016.pdf
+  institution:
+    name: Kleist-Museum, Frankfurt (Oder)
+    link: http://www.kleist-museum.de/
+  lang: de
+- title: "From Annotation to Uncertainty: NLP-Assumptions Questioned by DH Research"
+  date: 2016-11-09
+  venue:
+    label: "Colloquium in Piek Vossens group"
+  institution:
+    name: VU Amsterdam
+    country: The Netherlands
+- title: "Discovering Structural Similariti􏰀es in Narrati􏰀ve Texts"
+  date: 2015-09-15
+  venue:
+    label: "DARIAH-DE Workshop: Natural Language Processing​ für Literaturwissenschafter"
+    link: http://www.germanistik.uni-wuerzburg.de/lehrstuehle/computerphilologie/aktuelles/meldungen/single/artikel/dariah-de-workshop-natural-language-processing-fur-literaturwissenschafter/
+  institution:
+    name: Würzburg University
+    country: Germany
+  lang: de
+- title: "Discovering Structural Similarities in Narrative Texts using Event Alignment Algorithms"
+  date: 2014-05-08
+  venue:
+    label: DH Colloquium
+  institution:
+    name: Trier University
+    country: Germany
+  lang: de

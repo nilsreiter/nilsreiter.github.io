@@ -6,3 +6,9 @@ heidelberg:
   name: Heidelberg University
   country: Germany
   link: http://www.uni-heidelberg.de
+konstanz:
+  name: Konstanz University
+  country: Germany
+göttingen:
+  name: Göttingen University
+  country: Germany
