@@ -3,6 +3,8 @@ layout: page
 title: Community Services
 ---
 
+I am initiator of a group that wants to establish shared tasks in the Digital Humanities community. See [this web page for details](https://sharedtasksinthedh.github.io).
+
 ## Workshops
 
 ### LaTeCH

@@ -24,3 +24,4 @@ downloads:
 
 ### Abstract
 The applicability of ontologies for natural language processing depends on the ability to link ontological concepts and relations to their realisations in texts. We present a general, resource-poor account to create such a linking automatically by extracting Wikipedia articles corresponding to ontology classes. We evaluate our approach in an experiment with the Music Ontology. We consider linking as a promising starting point for subsequent steps of information extraction.
+{:.abstract}
