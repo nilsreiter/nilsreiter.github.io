@@ -84,6 +84,17 @@ blockquote {
 	}
 }
 
+.post {
+	.date {
+		text-align: right;
+		display:block;
+		color:#AAA;
+	}
+
+	.more {
+		text-align: right;
+	}
+}
 
 .header {
 	display: flex;

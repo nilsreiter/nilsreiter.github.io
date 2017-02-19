@@ -4,9 +4,9 @@ title: Dr. Nils Reiter
 ---
 
 <div style="float:left;margin-right:20px;">
-<img src="/assets/img/nils.jpg" width="200" />
+<img src="/assets/img/nils.jpg" width="150" />
 </div>
-<div style="float:left;"><h1>Dr. Nils Reiter</h1>
+<div style="float:left;margin-bottom:20px;"><h1>Dr. Nils Reiter</h1>
 
 Universität Stuttgart<br/>
 Institut für Maschinelle Sprachverarbeitung<br/>
@@ -14,10 +14,20 @@ Pfaffenwaldring 5b<br/>
 70569 Stuttgart<br/>
 <a href="mailto:nils.reiter@ims.uni-stuttgart.de">nils.reiter@ims.uni-stuttgart.de</a><br/>
 +49 711 68581354<br/>
+<br/>
+<a href="https://github.com/nilsreiter">github</a><br/>
+<a href="https://twitter.com/nilsreiter">twitter: @nilsreiter</a><br/>
+<a href="https://www.linkedin.com/in/nilsreiter/">linkedin</a>
+</div>
 
-<h2>Platforms and Social Networks</h2>
-<ul>
-<li><a href="https://github.com/nilsreiter">github</a></li>
-<li><a href="https://twitter.com/nilsreiter">twitter: @nilsreiter</a></li>
-<li><a href="https://www.linkedin.com/in/nilsreiter/">linkedin</a></li>
+<div style="clear:left;">
+<h2>News</h2>
+
+{% for post in site.posts %}
+<div class="post">
+<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> <h3>{{ post.title }}</h3>
+<p>{{post.excerpt}}</p>
+<p class="more">{% if post.external %}<a href="{{post.external}}">more ...</a>{% else %}<a href="{{post.url}}">more ...</a>{% endif %}</p>
+</div>
+{% endfor %}
 </div>
