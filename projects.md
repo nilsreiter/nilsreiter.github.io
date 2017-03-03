@@ -15,7 +15,7 @@ Start: {{project.time}}
 
 Homepage: [{{project.link}}]({{ project.link }})
 
-Role: {{project.role}}
+Role: {{project.role | markdownify }}
 
 {% endfor %}
 
