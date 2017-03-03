@@ -26,7 +26,7 @@ Fingerprint: <code style="font-size:70%">0F30 F60D 3150 704F 2509  34EF 3529 6E5
 <div style="clear:left;">
 
 
-{% assign posts = site.posts | where: "show" TRUE %}
+{% assign posts = site.posts | where: "show", true %}
 {% if posts.size > 0 %}
 
 <h2>News</h2>
