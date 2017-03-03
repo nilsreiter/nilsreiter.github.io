@@ -24,9 +24,13 @@ Fingerprint: <code style="font-size:70%">0F30 F60D 3150 704F 2509  34EF 3529 6E5
 </div>
 
 <div style="clear:left;">
-<h2>News</h2>
+
 
 {% assign posts = site.posts | where: "show" TRUE %}
+{% if posts.size > 0 %}
+
+<h2>News</h2>
+
 {% for post in posts %}
 <div class="post">
 <span class="date">{{ post.date | date: "%B %e, %Y" }}</span> <h3>{{ post.title }}</h3>
@@ -34,4 +38,6 @@ Fingerprint: <code style="font-size:70%">0F30 F60D 3150 704F 2509  34EF 3529 6E5
 <p class="more">{% if post.external %}<a href="{{post.external}}">more ...</a>{% else %}<a href="{{post.url}}">more ...</a>{% endif %}</p>
 </div>
 {% endfor %}
+
+{% endif %}
 </div>
