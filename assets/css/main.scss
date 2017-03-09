@@ -29,6 +29,24 @@ strong {
 	font-weight: bold;
 }
 
+div.picture {
+	float:left;
+	margin-right:20px;
+}
+
+div.details {
+	float:left;
+	margin-bottom:20px;
+}
+
+@media screen and (min-width: 575px) {
+	div.details h1 {
+		line-height: 0.8;
+	}
+}
+
+
+
 p {
 	font-size: 1em;
 	line-height: 150%;
