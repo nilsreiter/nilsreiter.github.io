@@ -122,18 +122,11 @@ blockquote {
 	@media screen and (max-width: $br) {
 		display: block;
 	}
-
 	h1 {
 		font-size: 2em;
 		margin-bottom: 0;
 	}
 	ul {
-		@media screen and (max-width: 575px) {
-			position:fixed;
-			top:0px;
-			right:20px;
-			background-color: white;
-		}
 		margin-top: 10px;
 		li {
 			display: inline;
@@ -142,7 +135,6 @@ blockquote {
 		}
 	}
 }
-
 
 .blog {
 	padding-bottom: 30px;
