@@ -21,19 +21,26 @@ Pfaffenwaldring 5b<br/>
 Fingerprint: <code style="font-size:70%">0F30 F60D 3150 704F 2509  34EF 3529 6E55 B2EB 14BB</code><br/>
 
 <br/>
-<a href="https://github.com/nilsreiter">github</a><br/>
+<a href="https://github.com/nilsreiter">github: nilsreiter</a><br/>
 <a href="https://twitter.com/nilsreiter">twitter: @nilsreiter</a><br/>
 <a href="https://www.linkedin.com/in/nilsreiter/">linkedin</a>
 </div>
 
 <div style="clear:left;">
+
+
+{% assign posts = site.posts | where: "show", true %}
+{% if posts.size > 0 %}
+
 <h2>News</h2>
 
-{% for post in site.posts %}
+{% for post in posts %}
 <div class="post">
 <span class="date">{{ post.date | date: "%B %e, %Y" }}</span> <h3>{{ post.title }}</h3>
 <p>{{post.excerpt}}</p>
 <p class="more">{% if post.external %}<a href="{{post.external}}">more ...</a>{% else %}<a href="{{post.url}}">more ...</a>{% endif %}</p>
 </div>
 {% endfor %}
+
+{% endif %}
 </div>
