@@ -9,7 +9,6 @@ author:
 booktitle: "Digital Humanities 2017: Conference Abstracts"
 year: 2017
 address: Montreal, Canada
-status: accepted
 downloads:
 - desc: preprint
   url: https://sharedtasksinthedh.github.io
