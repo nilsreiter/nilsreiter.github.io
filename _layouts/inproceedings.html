@@ -14,11 +14,12 @@ layout: pub
 {{ content }}
 
 <h3>BibTeX</h3>
-<pre>
+<code>
 {% include bibtex.html pub=page type="inproceedings" %}
-</pre>
+</code>
 
 <h3>Endnote</h3>
+<code>
 <pre>
 %0 Conference Proceedings
 {% for au in page.author %}%A {{ au }}<br/>{% endfor %}%T {{ page.title }}
@@ -26,8 +27,10 @@ layout: pub
 %B {{ page.booktitle }}
 {% if page.doi %}%R {{ page.doi }}{% endif %}
 </pre>
+</code>
 
 <h3>RIS</h3>
+<code>
 <pre>
 TY - CHAP
 {% for au in page.author %}AU - {{ au }}
@@ -37,3 +40,4 @@ PY - {{ page.year }}
 CY - {{ page.address }}
 ER -
 </pre>
+</code>
