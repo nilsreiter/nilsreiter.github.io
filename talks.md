@@ -1,19 +1,45 @@
 ---
 layout: page
-title: Invited Talks
+title: Talks
 ---
 
-{% assign talks = site.data.talks | sort: "date" | reverse %}
-{% for talk in talks %}
 
-{% assign inst=site.data.locations[talk.institution] %}
+## Conference Talks
 
-{% if inst.name %}
-{% else %}
-{% assign inst = talk.institution %}
-{% endif %}
+{% assign talks = site.data.ctalks | group_by_exp: "item", "item.date | date: '%Y'" | sort: "item" %}
 
 
-- **{{ talk.title }}**{% if talk.with %}, with {{ talk.with }}{% endif %}. {% if talk.venue.link %}[{{ talk.venue.label }}]({{talk.venue.link}}){% else %}{{ talk.venue.label }}{% endif %} at {{inst.name}}{% if inst.country %}, {{inst.country}}{%endif%} on {{ talk.date | date: "%B %e, %Y" }}.
+{% for y in talks %} 
+
+### {{ y.name }}
+
+{% assign thisyear = y.items | sort: "date" | reverse %}
+
+{% for pub in thisyear %}
+{% include talk.md talk=pub %}
+{% endfor %}
 
 {% endfor %}
+
+
+
+## Invited Talks
+
+{% assign talks = site.data.talks | group_by_exp: "item", "item.date | date: '%Y'" | sort: "item" %}
+
+{% for y in talks %} 
+
+### {{ y.name }}
+
+{% assign thisyear = y.items | sort: "date" | reverse %}
+
+
+{% for pub in thisyear %}
+{% include talk.md talk=pub %}
+{% endfor %}
+
+
+{% endfor %}
+
+
+

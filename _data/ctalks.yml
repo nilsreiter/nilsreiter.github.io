@@ -1,0 +1,50 @@
+- title: Scalable Reading
+  with:
+  - Marcus Willand
+  date: 2017-06-08
+  year: 2017
+  venue:
+    label: "Symposium Ästhetik der Skalierung"
+    link: "https://www.zollverein.de/angebote/aesthetik-der-skalierung"
+  institution: 
+    name: Folkwang-Universität
+    link: http://www.uni-stuttgart.de
+    country: Germany
+  lang: de
+- title: QuaDramA - Quantitative Drama Analytics
+  with:
+  - Marcus Willand
+  - Benjamin Krautter
+  date: 2017-05-29
+  year: 2017
+  venue:
+    label: Kick-Off-Meeting Mixed Methods
+  institution:
+    name: VolkswagenStiftung
+    link: http://www.volkswagenstiftung.de
+  lang: en
+- title: "Collaborative Annotation: Exploring Episodic Narration in American Short Stories"
+  with:
+  - Stephanie Siewert
+  date: 2017-06-09
+  year: 2017
+  venue:
+    label: 64th Annual Conference of the German Association for American Studies
+    link: http://dgfa.de
+    city: Hanover
+    country: Germany
+  lang: en
+- title: "Panel: Aktuelle Herausforderungen der Digitalen Dramenanalyse"
+  with:
+  - Marcus Willand
+  - Peer Trilcke
+  - Christof Schöch
+  - Nanette Rißler-Pipka
+  - Frank Fischer
+  date: 2017-02-16
+  year: 2017
+  lang: de
+  venue:
+    label: "DHd 2017: Digitale Nachhaltigkeit"
+    city: Berne
+    country: Switzerland

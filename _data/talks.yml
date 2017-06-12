@@ -33,6 +33,7 @@
   institution:
     name: VU Amsterdam
     country: The Netherlands
+  year: 2016
 - title: "Discovering Structural Similariti􏰀es in Narrati􏰀ve Texts"
   date: 2015-09-15
   venue:
@@ -42,6 +43,7 @@
     name: Würzburg University
     country: Germany
   lang: de
+  year: 2015
 - title: "Discovering Structural Similarities in Narrative Texts using Event Alignment Algorithms"
   date: 2014-05-08
   venue:
@@ -50,3 +52,4 @@
     name: Trier University
     country: Germany
   lang: de
+  year: 2014
