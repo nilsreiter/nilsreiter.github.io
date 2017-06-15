@@ -1,3 +1,10 @@
+- title: "Welcome Talk - Why DH is interesting for NLP-people"
+  date: 2017-06-15
+  venue:
+    label: TaCoS 2017
+    link: http://www.tacos27.de
+  lang: en
+  institution: stuttgart
 - title: Einführung in die Quantitative Dramenanalyse
   with:
   - Marcus Willand
