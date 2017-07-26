@@ -12,5 +12,4 @@ address: Vancouver, Canada
 month: August
 ref: Blessing2017aa
 lang: en
-status: accepted
 ---
