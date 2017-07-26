@@ -301,6 +301,8 @@ blockquote {
  */
 
 .publication {
+	margin-bottom:20px;
+
 	span.booktitle {
   	font-style: italic;
 	}
@@ -309,15 +311,15 @@ blockquote {
 		font-style: italic;
 	}
 
-span.title {
-  font-weight: bold;
-}
+	span.title {
+	  font-weight: bold;
+	}
 
-span.journal {
-  font-style: italic;
-}
+	span.journal {
+  		font-style: italic;
+	}
 
-.abstract {
-  font-size:0.8em;
-}
+	.abstract {
+  		font-size:0.8em;
+	}
 }
