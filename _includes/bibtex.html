@@ -1,18 +1,21 @@
-@{{ include.type }}{ {{ include.pub.id }},<br/>
-  {% if include.pub.author %}&nbsp;&nbsp;&nbsp;Author = { {{ include.pub.author | join: " and " }} },<br/>
-  {% endif %}{% if include.pub.booktitle %}&nbsp;&nbsp;&nbsp;Booktitle = { { {{ include.pub.booktitle }} } },<br/>
-  {% endif %}{% if include.pub.title %}&nbsp;&nbsp;&nbsp;Title = { { {{ include.pub.title }} } },<br/>
-  {% endif %}{% if include.pub.volume %}&nbsp;&nbsp;&nbsp;Volume = { {{ include.pub.volume }} },<br/>
-  {% endif %}{% if include.pub.number %}&nbsp;&nbsp;&nbsp;Number = { {{ include.pub.number }} },<br/>
-  {% endif %}{% if include.pub.journal %}&nbsp;&nbsp;&nbsp;Journal = { {{ include.pub.journal }} },<br/>
-  {% endif %}{% if include.pub.month %}&nbsp;&nbsp;&nbsp;Month = { {{ include.pub.month }} },<br/>
-  {% endif %}{% if include.pub.publisher %}&nbsp;&nbsp;&nbsp;Publisher = { {{ include.pub.publisher }} },<br/>
-  {% endif %}{% if include.pub.editor %}&nbsp;&nbsp;&nbsp;Editor = { {{ include.pub.editor | join: " and " }} },<br/>
-  {% endif %}{% if include.pub.pages %}&nbsp;&nbsp;&nbsp;Pages = { {{ include.pub.pages }} },<br/>
-  {% endif %}{% if include.pub.address %}&nbsp;&nbsp;&nbsp;Address = { {{ include.pub.address }} },<br/>
-  {% endif %}{% if include.pub.link %}&nbsp;&nbsp;&nbsp;Url = { {{ include.pub.link }} },<br/>
-  {% endif %}{% if include.pub.doi %}&nbsp;&nbsp;&nbsp;Doi = { {{ include.pub.doi }} },<br/>
-  {% endif %}{% if include.pub.series %}&nbsp;&nbsp;&nbsp;Series = { {{ include.pub.series }} },<br/>
-  {% endif %}{% if include.pub.volume %}&nbsp;&nbsp;&nbsp;Volume = { {{ include.pub.volume }} },<br/>
-  {% endif %}{% if include.pub.year %}&nbsp;&nbsp;&nbsp;Year = { {{ include.pub.year }} }{% endif %}
-<br/>}
+@{{page.layout}}{ {{ page.id | remove_first: "/publications/" }},
+   Title = { { {{ page.title }} } },
+   Author = { {{ page.author | join:  " and " }} },
+{% if page.address %}   Address = { {{ page.address }} },
+{% endif %}{% if page.editor %}   Editor = { {{ page.editor | join: " and " }} },
+{% endif %}{% if page.booktitle %}   Booktitle = { {{ page.booktitle }} },
+{% endif %}{% if page.pages %}   Pages = { {{ page.pages }} },
+{% endif %}{% if page.journal %}   Journal = { {{ page.journal }} },
+{% endif %}{% if page.volume %}   Volume = { {{ page.volume }} },
+{% endif %}{% if page.publisher %}   Publisher = { {{ page.publisher }} },
+{% endif %}{% if page.number %}   Number = { {{ page.number }} },
+{% endif %}{% if page.series %}   Series = { {{ page.series }} },
+{% endif %}{% if page.institution %}   Institution = { {{ page.institution }} },
+{% endif %}{% if page.school %}   School = { {{ page.school }} },
+{% endif %}{% if page.edition %}   Edition = { {{ page.edition }} },
+{% endif %}{% if page.link %}   Url = { {{ page.link }} },
+{% endif %}{% if page.month %}   Month = { {{ page.month }} },
+{% endif %}{% if page.doi %}   Doi = { {{ page.doi }} },
+{% endif %}{% if page.status %}   Note = { {{ page.status }} },
+{% endif %}   Year = { {{ page.year }} }
+}
