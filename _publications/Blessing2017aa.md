@@ -8,11 +8,13 @@ author:
 - Markus John
 - Nils Reiter
 year: 2017
-booktitle: Proceedings of LaTeCH-CLfL 
+booktitle: Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature
 address: Vancouver, Canada
 month: August
-ref: Blessing2017aa
+publisher: Association for Computational Linguistics
+pages: 57-67
 lang: en
+iurl: http://www.aclweb.org/anthology/W/W17/W17-2208
 downloads:
 - desc: Paper (PDF)
   url: http://www.aclweb.org/anthology/W/W17/W17-2208.pdf
