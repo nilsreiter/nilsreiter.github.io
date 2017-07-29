@@ -28,7 +28,7 @@ title: Talks
 
 
 
-## (some) Conference Talks
+## Conference/Workshop/Symposium Talks (selected)
 
 {% assign talks = site.data.ctalks | group_by_exp: "item", "item.date | date: '%Y'" | sort: "item" %}
 
