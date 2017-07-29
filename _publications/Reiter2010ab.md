@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Using NLP Methods for the Analysis of Rituals
 author:
 - Nils Reiter

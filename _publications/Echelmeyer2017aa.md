@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Ein PoS­-Tagger für „das” Mittelhochdeutsche
 author:
 - Nora Echelmeyer

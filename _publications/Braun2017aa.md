@@ -1,5 +1,6 @@
 ---
-layout: incollection
+layout: pub
+type: incollection
 title: "Sangsprüche auf Wörterwolken oder: Vorläufige Versuche zur Verbindung quantitativer und qualitativer Methoden bei der Erforschung mittelhochdeutscher Lyrik"
 author:
 - Manuel Braun

@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Automatic Emotion Detection for Quantitative Literary Studies -- A case study based on Franz Kafka’s “Das Schloss” und “Amerika”
 author:
 - Roman Klinger

@@ -1,5 +1,6 @@
 ---
-layout: incollection
+layout: pub
+type: incollection
 title: "Lexical Enrichment of Biomedical Ontologies"
 author:
 - Nils Reiter

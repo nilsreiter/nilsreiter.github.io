@@ -1,5 +1,6 @@
 ---
-layout: article
+layout: pub
+type: article
 title: Semantic Annotation for the Digital Humanities
 journal: Linguistic Issues in Language Technology
 author:

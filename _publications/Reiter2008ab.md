@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: "Lexical Enrichment of a Human Anatomy Ontology using WordNet"
 author:
 - Nils Reiter

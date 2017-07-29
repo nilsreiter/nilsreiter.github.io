@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Adapting Standard NLP Tools and Resources to the Processing of Ritual Descriptions
 author:
 - Nils Reiter

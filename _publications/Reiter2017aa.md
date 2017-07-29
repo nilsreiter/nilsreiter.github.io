@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: A Shared Task for a Shared Goal - Systematic Annotation of Literary Texts
 author:
 - Nils Reiter

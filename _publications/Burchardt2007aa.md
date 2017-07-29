@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: "A Semantic Approach to Textual Entailment: System Evaluation and Task Analysis"
 author:
 - Aljoscha Burchardt

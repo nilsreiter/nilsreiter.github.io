@@ -1,5 +1,6 @@
 ---
-layout: phdthesis
+layout: pub
+type: phdthesis
 author:
 - Nils Reiter
 title: Discovering Structural Similarities in Narrative Texts using Event Alignment Algorithms

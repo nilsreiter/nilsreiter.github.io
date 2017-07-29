@@ -1,5 +1,6 @@
 ---
-layout: incollection
+layout: pub
+type: incollection
 title: Adapting NLP Tools and Frame-Semantic Resources for the Semantic Analysis of Ritual Descriptions
 author:
 - Nils Reiter

@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: "A resource-poor approach for linking ontology classes to wikipedia articles"
 author:
 - Nils Reiter

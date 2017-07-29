@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis
 author:
 - Andre Blessing

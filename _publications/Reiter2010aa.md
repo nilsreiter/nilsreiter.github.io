@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Identifying Generic Noun Phrases
 author:
 - Nils Reiter

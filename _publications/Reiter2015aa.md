@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: Towards Annotating Narrative Segments
 author:
 - Nils Reiter

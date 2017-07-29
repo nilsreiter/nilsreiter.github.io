@@ -1,5 +1,6 @@
 ---
-layout: incollection
+layout: pub
+type: incollection
 title: "Geschlecht und Gattung. Digitale Analysen von Kleists ›Familie Schroffenstein‹"
 author:
 - Marcus Willand

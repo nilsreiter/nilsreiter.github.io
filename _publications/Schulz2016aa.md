@@ -1,5 +1,6 @@
 ---
-layout: inproceedings
+layout: pub
+type: inproceedings
 title: "Authorship Attribution of Mediaeval German Text: Style and Contents in Apollonius von Tyrland"
 booktitle: "Digital Humanities 2016: Conference Abstracts"
 year: 2016
