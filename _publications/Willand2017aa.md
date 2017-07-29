@@ -6,7 +6,7 @@ author:
 - Marcus Willand
 - Nils Reiter
 year: 2017
-booktitle: "Kleist-Jahrbuch"
+booktitle: "Kleist-Jahrbuch 2017"
 lang: de
 editor:
 - Günter Blamberger
