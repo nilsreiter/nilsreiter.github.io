@@ -15,6 +15,7 @@ publisher: Association for Computational Linguistics
 pages: 57-67
 lang: en
 iurl: http://www.aclweb.org/anthology/W/W17/W17-2208
+doi: 10.18653/v1/W17-2208
 downloads:
 - desc: Paper (PDF)
   url: http://www.aclweb.org/anthology/W/W17/W17-2208.pdf
