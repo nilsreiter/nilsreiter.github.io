@@ -1,6 +1,7 @@
 TY - {% if page.layout == "article" %}JOUR{% elsif page.layout == "incollection" %}CHAP{% elsif page.layout=="inproceedings" %}CONF{% endif %}
 TI - {{ page.title }}
 {% for au in page.author %}AU - {{ au }}
+{% endfor %}{% for au in page.editor %}ED - {{ au }}
 {% endfor %}PY - {{ page.year }}
 {% if page.address %}CY - {{ page.address }}
 {% endif %}{% if page.doi %}DO - {{ page.doi }}
