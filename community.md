@@ -7,6 +7,8 @@ I am initiator of a group that wants to establish shared tasks in the Digital Hu
 
 ## Workshops
 
+- Tutorial *From Text to Networks: Combining Entity and Segment Annotations in the Analysis of Large Text Corpora* at DH 2017 (tutor, with Sandra Murr and Max Overbeck), Montreal, Canada, August 8, 2017
+
 ### LaTeCH
 
 - [Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature](https://sighum.wordpress.com/events/latech-clfl-2017/) (organizer, with Beatrice Alex, Stefania Degaetano-Ortlieb, Anna Feldman, Anna Kazantseva and Stan Szpakowicz), Vancouver, Canada, August 4, 2017
