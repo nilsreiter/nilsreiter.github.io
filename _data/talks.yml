@@ -1,3 +1,12 @@
+- title: Reflected Text Analysis for Literary Studies
+  date: 2017-09-06
+  venue:
+     label: Invited Talk  
+  institution:
+     name: Max Planck Institute for Empirical Aesthetics
+     city: Frankfurt am Main 
+     country: Germany 
+     link: "https://www.aesthetics.mpg.de/en.html"
 - title: "Welcome Talk - Why DH is interesting for NLP-people"
   date: 2017-06-15
   venue:
@@ -30,7 +39,8 @@
     label: "Tagung: Genie oder nicht Genie… Kleist und die Shakespeare-Rezeption um 1800"
     link: http://www.kleist-museum.de/fileadmin/kleist/dokumente/kleist-museum/Kleist-Festtage_Programmheft_2016.pdf
   institution:
-    name: Kleist-Museum, Frankfurt (Oder)
+    name: Kleist-Museum
+    city: Frankfurt (Oder)
     link: http://www.kleist-museum.de/
   lang: de
 - title: "From Annotation to Uncertainty: NLP-Assumptions Questioned by DH Research"
