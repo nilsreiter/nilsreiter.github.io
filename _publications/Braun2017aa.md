@@ -11,6 +11,7 @@ lang: de
 publisher: Reichert Verlag
 address: Wiesbaden, Germany
 pages: 5-20
+month: 4
 editor:
 - Horst Brunner
 - Freimut Löser

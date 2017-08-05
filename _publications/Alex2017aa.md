@@ -2,7 +2,7 @@
 layout: pub
 type: book
 title: Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature
-month: August
+month: 8
 year: 2017
 address: Vancouver, Canada
 publisher: Association for Computational Linguistics

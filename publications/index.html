@@ -8,7 +8,7 @@ title: Publications
 
 <h2>{{ y }}</h2>
 {% assign thisyear = site.publications | where:"year", y %}
-
+{% assign thisyear = thisyear | sort: 'month', 'first' | reverse %}
 {% for pub in thisyear %}
 <div class="publication" lang="{{pub.lang}}">{% include {{ pub.type }}.html p=pub %}
 	<p class="right_aligned"><a href="{{pub.url}}">Details</a></p>

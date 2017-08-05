@@ -9,6 +9,7 @@ author:
 booktitle: "Book of Abstracts of DHd 2017"
 year: 2017
 lang: de
+month: 2
 address: Bern, Switzerland
 doi: 10.18419/opus-9023
 downloads:

@@ -10,7 +10,7 @@ author:
 year: 2017
 booktitle: Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature
 address: Vancouver, Canada
-month: August
+month: 8
 publisher: Association for Computational Linguistics
 pages: 57-67
 lang: en

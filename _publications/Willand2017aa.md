@@ -19,6 +19,7 @@ publisher: J.B. Metzler
 address: Stuttgart, Germany
 pages: 142-160
 series: Kleist-Jahrbuch
+month: 10
 status: to appear
 ---
 
