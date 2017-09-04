@@ -20,6 +20,6 @@ address: Stuttgart, Germany
 pages: 142-160
 series: Kleist-Jahrbuch
 month: 10
-status: to appear
+doi: 10.1007/978-3-476-04516-4_16
 ---
 
