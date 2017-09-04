@@ -9,12 +9,12 @@ year: 2017
 booktitle: "Kleist-Jahrbuch 2017"
 lang: de
 editor:
+- Andrea Allerkamp
 - Günter Blamberger
 - Ingo Breuer
-- Martin Roussel
-- Hannah Lotte Lund
-- Andrea Allerkamp
 - Barbara Gribnitz
+- Hannah Lotte Lund
+- Martin Roussel
 publisher: J.B. Metzler
 address: Stuttgart, Germany
 pages: 142-160
