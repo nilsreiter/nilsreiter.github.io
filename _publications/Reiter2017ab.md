@@ -18,3 +18,8 @@ downloads:
 - desc: PDF
   url: http://ceur-ws.org/Vol-1918/reiter.pdf
 ---
+
+### Abstract
+
+
+The structure of the Digital Humanities master’s program at University of Stuttgart is characterized by a big proportion of classes related to natural language processing. In this paper, we discuss the motivation for this design and associated challenges students and teachers are faced with. To provide background information, we also sum up our underlying perspective on Digital Humanities. Our discussion is driven by a qualitative analysis of a survey handed to the students of the program.
