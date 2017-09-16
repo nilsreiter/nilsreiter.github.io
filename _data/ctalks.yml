@@ -1,3 +1,21 @@
+- title: "Defining the Evaluation of Definitions: Towards the Automation of Narratological Analyses"
+  with:
+  - Evelyn Gius
+  date: 2017-09-14
+  venue:
+    label: "5th International Conference of the European Narratology Network (ENN5)"
+    city: Prague
+    country: Czech Republic
+    link: http://www.enn5.cz/
+  lang: en
+- title: "Teaching Computational Aspects in the Digital Humanities Program at University of Stuttgart – Intentions and Experiences"
+  date: 2017-09-12
+  venue: 
+    label: "Workshop Teaching NLP for Digital Humanities"
+    link: https://teach4dh.github.io/index.html
+    city: Berlin
+    country: Germany
+  lang: en
 - title: Shared Tasks in the Digital Humanities
   with:
   - Evelyn Gius
