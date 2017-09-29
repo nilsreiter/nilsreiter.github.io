@@ -15,7 +15,7 @@
 {% endif %}{% if page.edition %}   Edition = { {{ page.edition }} },
 {% endif %}{% if page.iurl %}   Url = { {{ page.iurl }} },
 {% endif %}{% if page.isbn %}   Isbn = { {{ page.isbn }} },
-{% endif %}{% if page.month %}   Month = { {% include month.html m=page.month %}},
+{% endif %}{% if page.month %}   Month = { {% include pub/month.html m=page.month %}},
 {% endif %}{% if page.doi %}   Doi = { {{ page.doi }} },
 {% endif %}{% if page.status %}   Note = { {{ page.status }} },
 {% endif %}   Year = { {{ page.year }} }

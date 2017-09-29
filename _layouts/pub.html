@@ -4,7 +4,7 @@ layout: default
 
 <div class="publication">
   <div class="bibentry">
-  	{% include {{page.type}}.html p=page %}
+  	{% include pub/{{page.type}}.html p=page %}
   </div>
   {% if page.doi %}
   <div>
@@ -24,10 +24,10 @@ layout: default
   {{ content }}
 
 	<h3>BibTeX</h3>
-	<code>{% include bibtex.html pub=page %}</code>
+	<code>{% include pub/bibtex.html pub=page %}</code>
 
 	<h3>RIS</h3>
-	<code>{% include ris.html pub=page %}</code>
+	<code>{% include pub/ris.html pub=page %}</code>
 
 
 </div>
