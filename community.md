@@ -18,6 +18,7 @@ I am initiator of a group that wants to establish shared tasks in the Digital Hu
 
 ### CRETA (internal)
 
+- CRETA-Werkstatt #4. September 26-37, 2017.
 - CRETA-Werkstatt #3. March 29-30, 2017.
 - CRETA-Werkstatt #2. September 26-28, 2016. Invited Speakers: [Dr. Evelyn Gius](https://www.slm.uni-hamburg.de/germanistik/personen/gius.html), [Dr. Antske Fokkens](http://wordpress.let.vupr.nl/antske/), [Prof. Dr. Andreas Blätte](https://www.uni-due.de/politik/blaette.php).
 - CRETA-Werkstatt #1. March 22-23, 2016.
