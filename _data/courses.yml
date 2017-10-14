@@ -8,11 +8,13 @@
   - Sarah Schulz
 - title: Programming for First-time Programmers
   inst: stuttgart
-  date: Winter term 2016/17
+  date: Winter term 2017/18
   program:
   - MA. Digital Humanities
   - MSc. Computational Linguistics
   lang: en
+  with:
+  - Gerhard Kremer
 - title: Tutorial From Text to Networks
   inst: 
     name: DH 2017
