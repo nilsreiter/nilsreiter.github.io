@@ -12,6 +12,3 @@ lang: de
 month: 2
 address: Cologne, Germany
 —
-
-
-Jens Beck1, Marcus Willand2, Nils Reiter
