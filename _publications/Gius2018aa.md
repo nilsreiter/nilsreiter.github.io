@@ -1,4 +1,4 @@
-—
+---
 layout: pub
 type: inproceedings
 title: „SANTA: Systematische Analyse Narrativer Texte durch Annotation“
@@ -12,4 +12,4 @@ year: 2018
 lang: de
 month: 2
 address: Cologne, Germany
-—
+---
