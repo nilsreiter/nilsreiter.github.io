@@ -7,6 +7,7 @@ I am initiator of a group that wants to establish shared tasks in the Digital Hu
 
 ## Workshops
 
+- Hackatorial *Maschinelles Lernen lernen: Ein CRETA- Hackatorial zur reflektierten automatischen Textanalyse* at DHd 2018 (instructor, with Nora Ketschik, Gerhard Kremer, and Sarah Schulz), Cologne, Germany, February 26, 2018
 - Tutorial *From Text to Networks: Combining Entity and Segment Annotations in the Analysis of Large Text Corpora* at DH 2017 (tutor, with Sandra Murr and Max Overbeck), Montreal, Canada, August 8, 2017
 
 ### LaTeCH
