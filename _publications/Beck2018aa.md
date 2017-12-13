@@ -1,4 +1,4 @@
-—
+---
 layout: pub
 type: inproceedings
 title: "Was Lesende denken: Assoziationen zu Büchern in Sozialen Medien"
@@ -11,4 +11,4 @@ year: 2018
 lang: de
 month: 2
 address: Cologne, Germany
-—
+---
