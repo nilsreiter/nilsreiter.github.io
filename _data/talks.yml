@@ -1,3 +1,12 @@
+- title: Coreference Annotations in QuaDramA
+  venue:
+    label: HermA Project
+    link: https://www.herma.uni-hamburg.de
+  institution:
+    name: Hamburg University
+    city: Hamburg
+    link: https://www.uni-hamburg.de
+  date: 2017-12-13
 - title: Quantitative Approaches to the American Short Story
   with:
   - Stephanie Siewert
