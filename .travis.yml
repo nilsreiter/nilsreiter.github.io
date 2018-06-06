@@ -2,6 +2,7 @@ language: ruby
 rvm:
 - 2.4
 install:
+- gem install jekyll
 - bundle install
 - bundle update jekyll
 env:
