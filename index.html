@@ -1,46 +1,8 @@
----
-layout: default
-title: Dr. Nils Reiter
----
-
-<div class="picture" >
-	<img src="/assets/img/nils.jpg" width="150" />
-</div>
-<div class="details">
-	<h1>Dr. Nils Reiter</h1>
-
-Universität Stuttgart<br/>
-Institut für Maschinelle Sprachverarbeitung<br/>
-Pfaffenwaldring 5b<br/>
-70569 Stuttgart<br/>
-<br/>
-+49 711 68581354<br/>
-<br/>
-<a href="mailto:nils.reiter@ims.uni-stuttgart.de">nils.reiter@ims.uni-stuttgart.de</a><br/>
-<a href="https://gnupg.org">GnuPG</a> Key-Id: B2EB14BB<br/>
-Fingerprint: <code style="font-size:70%">0F30 F60D 3150 704F 2509  34EF 3529 6E55 B2EB 14BB</code><br/>
-
-<br/>
-<a href="https://github.com/nilsreiter">github: nilsreiter</a><br/>
-<a href="https://twitter.com/nilsreiter">twitter: @nilsreiter</a><br/>
-<a href="https://www.linkedin.com/in/nilsreiter/">linkedin</a>
-</div>
-
-<div style="clear:left;">
-
-
-{% assign posts = site.posts | where: "show", true %}
-{% if posts.size > 0 %}
-
-<h2>News</h2>
-
-{% for post in posts %}
-<div class="post">
-<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> <h3>{{ post.title }}</h3>
-<p>{{post.excerpt | markdownify}}</p>
-<p class="more">{% if post.external %}<a href="{{post.external}}">more ...</a>{% else %}<a href="{{post.url}}">more ...</a>{% endif %}</p>
-</div>
-{% endfor %}
-
-{% endif %}
-</div>
+<html>
+<head>
+<meta http-equiv="refresh" content="0; url=http://nilsreiter.de" />
+</head>
+<body>
+<p><a href="http://nilsreiter.de">nilsreiter.de</a></p>
+</body>
+</html>
