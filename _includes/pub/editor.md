@@ -1,1 +1,0 @@
-{% if include.e %}<span class="editor">{{ include.e | join: ", " }} (ed{%if include.e.size > 1 %}s{%endif%}.)</span>{{ include.end }}{% endif %}
